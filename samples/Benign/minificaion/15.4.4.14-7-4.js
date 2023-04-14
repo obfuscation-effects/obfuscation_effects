@@ -1,0 +1,1 @@
+ES5Harness.registerTest({id:"15.4.4.14-7-4",path:"TestCases/chapter15/15.4/15.4.4/15.4.4.14/15.4.4.14-7-4.js",description:"Array.prototype.indexOf returns -1 when 'fromIndex' is 1",test:function(){return-1===[1,2,3].indexOf(1,1)},precondition:function(){return fnExists(Array.prototype.indexOf)}});

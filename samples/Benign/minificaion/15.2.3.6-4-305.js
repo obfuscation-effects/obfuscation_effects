@@ -1,0 +1,1 @@
+function testcase(){return function(){Object.defineProperty(arguments,"0",{value:0,writable:!1,configurable:!1});try{Object.defineProperty(arguments,"0",{value:10})}catch(a){return a instanceof TypeError&&dataPropertyAttributesAreCorrect(arguments,"0",0,!1,!1,!1)}return!1}()}runTestCase(testcase);

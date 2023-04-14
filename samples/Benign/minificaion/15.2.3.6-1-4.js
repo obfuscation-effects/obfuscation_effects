@@ -1,0 +1,1 @@
+ES5Harness.registerTest({id:"15.2.3.6-1-4",path:"TestCases/chapter15/15.2/15.2.3/15.2.3.6/15.2.3.6-1-4.js",description:"Object.defineProperty applied to string primitive throws a TypeError",test:function(){try{return Object.defineProperty("hello\nworld\\!","foo",{}),!1}catch(a){return a instanceof TypeError}},precondition:function(){return fnExists(Object.defineProperty)}});

@@ -1,0 +1,1 @@
+var __10_4_2_1_5="str";function testcase(){try{return eval("                          var _eval = eval;                           var __10_4_2_1_5 = 'str2';                           _eval(\"'str' === __10_4_2_1_5 \") &&                           eval(\"'str2' === __10_4_2_1_5\")                        ")}finally{delete this.__10_4_2_1_5}}runTestCase(testcase);

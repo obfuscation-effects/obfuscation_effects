@@ -1,0 +1,1 @@
+function testcase(){var a=[0,1];try{return Object.defineProperty(a,"1",{get:function(){return 1},configurable:!1}),Object.defineProperty(Array.prototype,"1",{get:function(){return 2},configurable:!0}),Object.defineProperty(a,"length",{value:1}),!1}catch(b){return b instanceof TypeError&&2===a.length&&a.hasOwnProperty("1")}finally{delete Array.prototype[1]}}runTestCase(testcase);

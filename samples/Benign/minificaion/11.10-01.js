@@ -1,0 +1,1 @@
+var gTestfile="11.10-01.js",BUGNUMBER=396969,summary="11.10 - & should evaluate operands in order",actual="",expect="";test();function test(){enterFunc("test");printBugNumber(BUGNUMBER);printStatus(summary);expect="o.valueOf, p.valueOf";reportCompare(2,0,summary+": value");reportCompare(expect,actual,summary+": order");exitFunc("test")};

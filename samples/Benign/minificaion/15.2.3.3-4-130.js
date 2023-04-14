@@ -1,0 +1,1 @@
+function testcase(){var a=Object.getOwnPropertyDescriptor(Date.prototype,"getUTCDate");if(a.value===Date.prototype.getUTCDate&&!0===a.writable&&!1===a.enumerable&&!0===a.configurable)return!0}runTestCase(testcase);

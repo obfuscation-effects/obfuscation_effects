@@ -1,0 +1,1 @@
+function testcase(){var _0x39637b={'QuDlQ':'prop','xYJbQ':function(_0x42e2aa,_0x29d27c){return _0x42e2aa===_0x29d27c;}},_0xc7f79c=Object['create']({},{'prop':{'writable':new String()}}),_0x5e161f=_0xc7f79c['hasOwnProperty'](_0x39637b['QuDlQ']);return _0xc7f79c['prop']=0x79,_0x5e161f&&_0x39637b['xYJbQ'](_0xc7f79c['prop'],0x79);}runTestCase(testcase);

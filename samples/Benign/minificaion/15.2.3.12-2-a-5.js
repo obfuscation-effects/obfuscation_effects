@@ -1,0 +1,1 @@
+function testcase(){var a={};Object.defineProperty(a,"foo",{value:12,configurable:!1});var b=function(){};b.prototype=a;a=new b;Object.defineProperty(a,"foo",{get:function(){return 9},configurable:!0});Object.preventExtensions(a);return!Object.isFrozen(a)}runTestCase(testcase);

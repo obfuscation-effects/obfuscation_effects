@@ -1,0 +1,1 @@
+function testcase(){var a=[],b=!1,c=!1;Object.defineProperty(a,"length",{value:{toString:function(){b=!0;return"2"},valueOf:function(){c=!0;return 3}}});return 3===a.length&&!b&&c}runTestCase(testcase);

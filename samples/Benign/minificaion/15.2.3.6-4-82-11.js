@@ -1,0 +1,1 @@
+function testcase(){var a={verifySetFunction:"data"},b=function(){return a.verifySetFunction},c=function(d){a.verifySetFunction=d};Object.defineProperty(a,"foo",{get:b,set:c,enumerable:!0,configurable:!0});Object.defineProperty(a,"foo",{enumerable:!1,configurable:!1});return accessorPropertyAttributesAreCorrect(a,"foo",b,c,"verifySetFunction",!1,!1)}runTestCase(testcase);

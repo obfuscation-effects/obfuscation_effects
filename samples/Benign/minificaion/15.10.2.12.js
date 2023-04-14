@@ -1,0 +1,1 @@
+var BUGNUMBER=378738,summary="15.10.2.12 - CharacterClassEscape d",actual="",expect="";test();function test(){enterFunc("test");printBugNumber(BUGNUMBER);printStatus(summary);expect=!1;actual=/\d/.test("\uff11");reportCompare(expect,actual,summary);exitFunc("test")};

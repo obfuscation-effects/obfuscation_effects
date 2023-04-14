@@ -1,0 +1,1 @@
+exports['FRAMEWORK_VERSION']='0.1',exports['TIMESTAMP']=0x50103721,exports['VERSION']=0x0,exports['FIELDS']={'value':null},exports['forward']=function(_0x1c9ec4){return _0x1c9ec4;},exports['backward']=function(_0x205eeb){return _0x205eeb;};

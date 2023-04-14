@@ -1,0 +1,1 @@
+function testcase(){var a=Object.getOwnPropertyDescriptor(Array.prototype,"pop");if(a.value===Array.prototype.pop&&!0===a.writable&&!1===a.enumerable&&!0===a.configurable)return!0}runTestCase(testcase);

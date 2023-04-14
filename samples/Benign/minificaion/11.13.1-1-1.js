@@ -1,0 +1,1 @@
+ES5Harness.registerTest({id:"11.13.1-1-1",path:"TestCases/chapter11/11.13/11.13.1/11.13.1-1-1.js",description:"simple assignment throws ReferenceError if LeftHandSide is not a reference (number)",test:function(){try{eval("42 = 42")}catch(a){if(a instanceof ReferenceError)return!0}}});

@@ -1,0 +1,1 @@
+function testcase(){function b(c){a.setVerifyHelpProp=c}var a=[];Object.defineProperty(a,"0",{set:void 0,configurable:!0});Object.defineProperty(a,"0",{set:b});return accessorPropertyAttributesAreCorrect(a,"0",void 0,b,"setVerifyHelpProp",!1,!0)}runTestCase(testcase);

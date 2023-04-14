@@ -1,0 +1,1 @@
+function testcase(){var _0x3b34a8={'TOjIi':function(_0x2ffa25,_0xd4f95){return _0x2ffa25===_0xd4f95;},'eELbF':'function'},_0x4e9110=JSON['parse'];if(_0x3b34a8['TOjIi'](typeof _0x4e9110,_0x3b34a8['eELbF']))return!![];}runTestCase(testcase);
